@@ -20,3 +20,14 @@ IDE	                Microsoft Web         Development Environment
 Database	          SQL Server	          Recommended: SQL Server Express
 Data Access	        ADO.NET (SqlClient)	  Native SQL Connection
 Reporting	          Chart.js	            Client-side Visualization Library
+
+⚙️ Installation and Setup
+Database: Install and configure a local instance of SQL Server Express.
+
+Schema: Create the event management database and import the required tables into SQL Server.
+
+Project Load: Open the solution file (.sln) in Visual Web Developer 2010 Express.
+
+Connection String: Update the connection string in the web.config file to connect to your local SQL Server instance (e.g., using Data Source=.\SQLEXPRESS;...).
+
+Run: Execute the project from the IDE for debugging and deployment.
