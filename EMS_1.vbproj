@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{DDA6A57D-A4D6-4599-9E4A-D8CEF5B334B6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>EMS_1</RootNamespace>
+    <AssemblyName>EMS_1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EMS_1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EMS_1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.jpg" />
+    <Content Include="ADMIN\DefaultAdmin.aspx" />
+    <Content Include="ADMIN\Enquiry.aspx" />
+    <Content Include="ADMIN\Vendors.aspx" />
+    <Content Include="ADMIN\Report.aspx" />
+    <Content Include="ADMIN\ManageBookings.aspx" />
+    <Content Include="ADMIN\ManageTestimonials.aspx" />
+    <Content Include="ADMIN\UserProfile.aspx" />
+    <Content Include="App_Data\EMS.mdf" />
+    <Content Include="App_Data\EMS_log.ldf">
+      <DependentUpon>EMS.mdf</DependentUpon>
+    </Content>
+    <Content Include="bg.jpg" />
+    <Content Include="birthday1.jpg" />
+    <Content Include="birthday2.jpg" />
+    <Content Include="BirthdayU.jpg" />
+    <Content Include="ca1.jpg" />
+    <Content Include="ca2.jpg" />
+    <Content Include="CAU.jpg" />
+    <Content Include="co1.jpg" />
+    <Content Include="co2.jpg" />
+    <Content Include="CorporateU.jpg" />
+    <Content Include="e-logo.jpg" />
+    <Content Include="E_ForgotPassword.aspx" />
+    <Content Include="E_Login.aspx" />
+    <Content Include="E_SignUp.aspx" />
+    <Content Include="E_TermsAndConditions.aspx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="logo.jpg" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="output.jpg" />
+    <Content Include="PromotionU.jpg" />
+    <Content Include="TestimonialsU.aspx" />
+    <Content Include="upload-icon.jpg" />
+    <Content Include="UserServicesU.aspx" />
+    <Content Include="USER\HomePageU.aspx" />
+    <Content Include="USER\UserServices.aspx" />
+    <Content Include="USER\Testimonials.aspx" />
+    <Content Include="USER\Book.aspx" />
+    <Content Include="USER\SubmitTestimonial.aspx" />
+    <Content Include="USER\UserProfile.aspx" />
+    <Content Include="USER\Payment.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="E_AdminLogin.aspx" />
+    <Content Include="wedding.jpg" />
+    <Content Include="wedding2.jpg" />
+    <Content Include="wedding3.jpg" />
+    <Content Include="WeddingU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN\AdminDashboard.Master.designer.vb">
+      <DependentUpon>AdminDashboard.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\AdminDashboard.Master.vb">
+      <DependentUpon>AdminDashboard.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\DefaultAdmin.aspx.designer.vb">
+      <DependentUpon>DefaultAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\DefaultAdmin.aspx.vb">
+      <DependentUpon>DefaultAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\Enquiry.aspx.designer.vb">
+      <DependentUpon>Enquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\Enquiry.aspx.vb">
+      <DependentUpon>Enquiry.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\Vendors.aspx.designer.vb">
+      <DependentUpon>Vendors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\Vendors.aspx.vb">
+      <DependentUpon>Vendors.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\Report.aspx.designer.vb">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\Report.aspx.vb">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\ManageBookings.aspx.designer.vb">
+      <DependentUpon>ManageBookings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\ManageBookings.aspx.vb">
+      <DependentUpon>ManageBookings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\ManageTestimonials.aspx.designer.vb">
+      <DependentUpon>ManageTestimonials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\ManageTestimonials.aspx.vb">
+      <DependentUpon>ManageTestimonials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\UserProfile.aspx.designer.vb">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\UserProfile.aspx.vb">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="E_ForgotPassword.aspx.designer.vb">
+      <DependentUpon>E_ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="E_ForgotPassword.aspx.vb">
+      <DependentUpon>E_ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="E_Login.aspx.designer.vb">
+      <DependentUpon>E_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="E_Login.aspx.vb">
+      <DependentUpon>E_Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="E_SignUp.aspx.designer.vb">
+      <DependentUpon>E_SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="E_SignUp.aspx.vb">
+      <DependentUpon>E_SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="E_TermsAndConditions.aspx.designer.vb">
+      <DependentUpon>E_TermsAndConditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="E_TermsAndConditions.aspx.vb">
+      <DependentUpon>E_TermsAndConditions.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TestimonialsU.aspx.designer.vb">
+      <DependentUpon>TestimonialsU.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestimonialsU.aspx.vb">
+      <DependentUpon>TestimonialsU.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserServicesU.aspx.designer.vb">
+      <DependentUpon>UserServicesU.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServicesU.aspx.vb">
+      <DependentUpon>UserServicesU.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="USER\DefaultHome.Master.designer.vb">
+      <DependentUpon>DefaultHome.Master</DependentUpon>
+    </Compile>
+    <Compile Include="USER\DefaultHome.Master.vb">
+      <DependentUpon>DefaultHome.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="USER\HomePageU.aspx.designer.vb">
+      <DependentUpon>HomePageU.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USER\HomePageU.aspx.vb">
+      <DependentUpon>HomePageU.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="USER\UserServices.aspx.designer.vb">
+      <DependentUpon>UserServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USER\UserServices.aspx.vb">
+      <DependentUpon>UserServices.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="USER\Testimonials.aspx.designer.vb">
+      <DependentUpon>Testimonials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USER\Testimonials.aspx.vb">
+      <DependentUpon>Testimonials.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="E_AdminLogin.aspx.designer.vb">
+      <DependentUpon>E_AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="E_AdminLogin.aspx.vb">
+      <DependentUpon>E_AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="USER\Book.aspx.designer.vb">
+      <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USER\Book.aspx.vb">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="USER\SubmitTestimonial.aspx.designer.vb">
+      <DependentUpon>SubmitTestimonial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USER\SubmitTestimonial.aspx.vb">
+      <DependentUpon>SubmitTestimonial.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="USER\UserProfile.aspx.designer.vb">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USER\UserProfile.aspx.vb">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="USER\Payment.aspx.designer.vb">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USER\Payment.aspx.vb">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADMIN\AdminDashboard.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="USER\DefaultHome.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestimonialsImages\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51010</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
